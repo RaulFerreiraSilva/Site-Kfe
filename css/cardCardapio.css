@@ -1,0 +1,119 @@
+/* Paleta de Cor
+{ color: #378C84; }
+{ color: #593723; }
+{ color: #BF7D65; }
+{ color: #8C493A; }
+{ color: #C7C3BF; }
+{ color: #A4B3BF; }
+{ color: #F2E6DF; }
+*/
+
+:root{
+    --primary: #8C493A;
+    --secondary: #BF7D65;
+    --dark: #212121;
+    --light: #F3F3F3;
+}
+
+.card, .card1, .card2{
+    margin: 100px auto 0;
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.card__inner, .card__inner1, .card__inner2{
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    position: relative;
+}
+
+.card__inner.is-flipped, .card__inner1.is-flipped, .card__inner2.is-flipped {
+    transform: rotateY(180deg);
+}
+
+.card__face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2) ;
+}
+
+.card__face--front{
+    background-image: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    align-items: center;
+    justify-content: center;
+}
+
+.card__face--front p{
+    color: #fff;
+    font-size: 32px;
+}
+
+.card__face--back{
+    background-color: var(--light);
+    transform: rotateY(180deg);
+}
+
+.card__content{
+    width: 100%;
+    height: 100%;
+}
+
+.card__header{
+    position: relative;
+    padding: 30px 30px 40px;
+}
+
+.card__header:after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    border-radius: 0 0 50% 0;
+    background-image: linear-gradient(to bottom left, var(--primary) 10%, var(--secondary) 115% );
+
+}
+
+.card__body{
+    padding: 1.5rem;
+}
+
+.comentarios{
+    width: 110rem;
+    height: 8rem;
+}
+
+.tamanho{
+    width: 25rem;
+    height: 36rem;
+}
+
+#fonte_Card{
+    font-size: 3.5rem;
+    font-weight: bold ;
+}
+
+.scrollbar{
+    width: auto;
+    height: auto;
+    overflow-x: scroll;
+}
+
+.scrollbarY{
+    width: auto;
+    height: 500px;
+    overflow-y: scroll;
+}

@@ -1,0 +1,13 @@
+#button-Galeria{
+    border: 0px;
+    background-image: url('../img/Like.png');
+    background-color:  rgba(0,0,0,0);
+    width: 40px;
+    height: 40px;
+}
+
+#p-Galeria{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}

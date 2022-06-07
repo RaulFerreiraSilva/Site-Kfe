@@ -1,0 +1,28 @@
+
+/* Paleta de Cor
+{ color: #378C84; }
+{ color: #593723; }
+{ color: #BF7D65; }
+{ color: #8C493A; }
+{ color: #C7C3BF; }
+{ color: #A4B3BF; }
+{ color: #F2E6DF; }
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.bg-AzulEscuro{
+    background-color: #378C84;
+}
+.bg-CinzaClaro{
+    background-color: #C7C3BF;
+}
+.bg-CinzaEscuro{
+    background-color: rgba(239, 239, 239, 0.68);
+}
+.text-color{
+    color: #378C84;
+}
+.text-font{
+    font-family: 'Anton', cursive,sans-serif;
+}

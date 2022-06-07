@@ -1,0 +1,140 @@
+/* Paleta de Cor
+{ color: #378C84; }
+{ color: #593723; }
+{ color: #BF7D65; }
+{ color: #8C493A; }
+{ color: #C7C3BF; }
+{ color: #A4B3BF; }
+{ color: #F2E6DF; }
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+@font-face{
+    font-family: Lastica;
+    src: url('../Fonte/FontsFree-Net-Lastica.ttf');
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+p{
+    font-family: 'Handlee', 'sans-serif';
+    font-size: 1.5rem;
+    text-align: justify;
+
+}
+
+li{
+    font-family: 'Handlee', 'sans-serif'; 
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+}
+
+.bg-pagina{
+    background-color: #C7C3BF;
+}
+
+.img-navbar{
+    background-image: url('../img/img-navbar.jpg');
+    background-size: cover;
+}
+
+.title-text{
+    font-family: 'Courier New', Courier, monospace, 'sans-serif';
+    font-size: 4.5em;
+    font-weight: bold;
+    color: #F2E6DF;
+}
+
+.color-border{
+    background:  linear-gradient( 180deg, #C7C3BF, #8C493A );
+}
+
+.text-slide{
+    font-family: 'Varela Round', 'sans-serif';
+    color:white;
+}
+
+.logo-navbar{
+    width: 540px;
+    height: 400px;
+    left: 452px;
+    top: 160px;
+    max-width: 1080px;
+    width: 100%;
+    height: auto;
+}
+
+.icon-navbar{
+    width: 68px;
+    height: 68px;
+    left: 157px;
+    top: 6px;
+    border-radius: 8px;
+
+}
+
+.bg-navbar{
+    background-color: #8C493A;
+}
+
+.font-nav{
+    font-size: 1.2rem;
+}
+
+.img-logo{
+    height: 26rem;
+    width: 40rem;
+}
+
+.social-buttons{
+    width: 40px;
+    height: 40px;
+}
+
+.social-buttons-r{
+    width: 42px;
+    height: 42px;
+}
+
+.text-h2{
+    font-size: 1.8rem;
+    font-family: 'Varela Round', 'sans-serif';
+    font-weight: bold;
+    
+}
+
+.font{
+    font-family: 'Varela Round', 'sans-serif';
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+.img-solution{
+    border-radius: 50%;
+    width: 25rem;
+}
+
+.border-solution{
+    background:  linear-gradient( 180deg, #C7C3BF, #000 );
+}
+
+#P-Dia{
+    font-size: 3rem;
+}
+
+
+#Solution{
+    font-family: Lastica, 'sans-serif';
+    color: #fff;
+}
+
+.squad{
+    width: 200px;
+    height: 200px;
+}
